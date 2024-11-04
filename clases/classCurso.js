@@ -1,13 +1,18 @@
 export class Estudiante {
     constructor(año, division) {
-        this.nombre = nombre;
-        this.apellido = apellido;
-        this.documento = documento;
-        this.curso = curso;
+        this.año = año;
+        this.division = division;
+        this.curso = [];
+        this.profesor = "";
     }
 
     getInfo(){
-        return this.nombre, this.apellido, this.documento, this.curso
+        if (this.profesor == ""){
+            return this.anio, this.division, this.curso, "Profesor no asignado";
+        }
+        else {
+            return this.anio, this.division, this.curso, this.profesor;
+        }
     }
 
     enviarCorreo(asunto, contenido){
