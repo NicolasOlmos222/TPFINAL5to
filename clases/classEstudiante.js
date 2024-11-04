@@ -7,7 +7,7 @@ export class Estudiante {
     }
 
     getInfo(){
-        return this.nombre, this.apellido, this.documento, this.curso
+        return "Nombre: " + this.nombre + " " + "Apellido: " + this.apellido + " " + "Documento: " + this.documento + " " + "Curso: " + this.curso
     }
 
     enviarCorreo(asunto, contenido){
