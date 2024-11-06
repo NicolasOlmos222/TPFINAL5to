@@ -1,4 +1,4 @@
-export class Profesor {
+class Profesor {
     constructor(nombre, apellido, materia, correo) {
         this.nombre = nombre;
         this.apellido = apellido;

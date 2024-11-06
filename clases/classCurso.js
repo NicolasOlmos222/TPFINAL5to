@@ -1,4 +1,4 @@
-export class Curso {
+class Curso {
     constructor(año, division) {
         this.año = año;
         this.division = division;
