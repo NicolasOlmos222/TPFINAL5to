@@ -30,6 +30,44 @@ nav ul li button:hover {
     border-radius: 5px;
 }
 
+.formulario{
+    padding: 20px;
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 40%;
+}
+.formulario label{
+    display: block;
+    margin-bottom: 5px;
+}
+
+.formulario input{
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.formulario select{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.formulario button {
+    padding: 10px;
+    margin-left: 42%;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
 .contenedorProfesor {
     display: none;
     padding: 20px;
