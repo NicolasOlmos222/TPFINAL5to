@@ -6,7 +6,67 @@
     <title>Document</title>
 </head>
 <body>
-    <button id="hola">hola</button>
+    <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navegación con contenedores ocultos</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><button onclick="mostrarSeccion('estudiante')">Estudiante</button></li>
+            <li><button onclick="mostrarSeccion('profesor')">Profesor</button></li>
+            <li><button onclick="mostrarSeccion('curso')">Curso</button></li>
+        </ul>
+    </nav>
+
+    <div id="estudiante" class="contenedorEstudiante">
+        <h2>Estudiante</h2>
+        <div id = "formulario">
+            <p>Ingresar un nuevo estudiante:</p>
+            <form>
+                <label>Nombre: </label>
+                <input id = "nombre">
+                <label>Apellido: </label>
+                <input id = "apellido">
+                <label>DNI: </label>
+                <input id = "dni">
+                <label>Curso: </label>
+                <select>
+                    <option value="1A">1A</option>
+                    <option value="1B">1B</option>
+                    <option value="2A">2A</option>
+                    <option value="2B">2B</option>
+                    <option value="3A">3A</option>
+                    <option value="3B">3B</option>
+                    <option value="4A">4A</option>
+                    <option value="4B">4B</option>
+                    <option value="5A">5A</option>
+                    <option value="5B">5B</option>
+                    <option value="6A">6A</option>
+                    <option value="6B">6B</option>
+                    <option value="7A">7A</option>
+                    <option value="7B">7B</option>
+                </select>
+            </form>
+        </div>
+        
+    </div>
+
+    <div id="profesor" class="contenedorProfesor">
+        <h2>Profesor</h2>
+        <p>Información sobre profesores.</p>
+    </div>
+
+    <div id="curso" class="contenedorCurso">
+        <h2>Curso</h2>
+        <p>Información sobre cursos.</p>
+    </div>
+
+
 
     <script src="./clases/classEstudiante.js"></script>
     <script src="./clases/classProfesor.js"></script>
